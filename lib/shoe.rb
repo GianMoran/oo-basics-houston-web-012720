@@ -10,6 +10,7 @@ class Shoe
   end
  
   def condition=(state)
+    binding.pry
     @condition = state
   end
 end
