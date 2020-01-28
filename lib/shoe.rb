@@ -9,7 +9,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
  
-  def condition=state
+  def condition=(state)
     @condition = state
   end
 end
