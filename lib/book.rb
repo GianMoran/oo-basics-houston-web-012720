@@ -6,7 +6,7 @@ class Book
   end
   
   def turn_page
-    puts "turning page"
+    puts "can turn the page"
   end
 end
 
