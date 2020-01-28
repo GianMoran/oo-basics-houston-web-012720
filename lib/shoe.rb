@@ -1,8 +1,8 @@
 # Make your shoe class here!
 require 'pry'
 class Shoe
-  attr_accessor :brand, :color, :size, :material
-  attr_reader :condition
+  attr_accessor :brand, :color, :size, :material, :condition
+  # attr_reader :condition
   def initialize(brand)
     @brand = brand 
   end
@@ -11,7 +11,7 @@ class Shoe
   end
  
   def condition=(state)
-    binding.pry
+    # binding.pry
     @condition = state
   end
 end
