@@ -8,5 +8,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 end
-nike = shoe.new("nike")
+nike = Shoe.new("nike")
 nike.condition =("old")
