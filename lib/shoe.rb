@@ -10,3 +10,4 @@ class Shoe
 end
 nike = Shoe.new("nike")
 nike.condition =("new")
+nike.condition =("old")
