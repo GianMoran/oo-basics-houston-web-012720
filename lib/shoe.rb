@@ -1,4 +1,5 @@
 # Make your shoe class here!
+require 'pry'
 class Shoe
   attr_accessor :brand, :color, :size, :material
   attr_reader :condition
